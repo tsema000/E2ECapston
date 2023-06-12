@@ -58,6 +58,7 @@ public class ValidateLoginTitle extends Base {
 		r.getUsername().sendKeys("Abebe");
 		r.getEmail().sendKeys("A@gmail.com");
 		r.getRgB().click();
+		driver.get(getUrl());
 
 		CartPage c = new CartPage(driver);
 		c.getCart().click();

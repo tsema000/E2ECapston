@@ -5,8 +5,8 @@
     <classes>
       <class name="craftsoftware.ValidateLoginTitle">
         <methods>
-          <include name="endToEndTest"/>
           <include name="setup"/>
+          <include name="endToEndTest"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- craftsoftware.ValidateLoginTitle -->
